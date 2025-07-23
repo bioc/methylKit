@@ -89,7 +89,7 @@
 #' @docType methods
 #' @rdname methSeg
 #' 
-#' @importFrom GenomeInfoDb 'seqlevels<-'
+#' @importFrom Seqinfo 'seqlevels<-'
 methSeg<-function(obj, diagnostic.plot=TRUE, join.neighbours=FALSE,
                   initialize.on.subset=1, ...){
   
